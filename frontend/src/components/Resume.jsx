@@ -8,32 +8,10 @@ const experience = [
     description: 'Leading development of scalable web applications using MERN stack. Architected microservices infrastructure serving 1M+ users.',
     achievements: [
       'Reduced API response time by 60% through optimization',
-      'Mentored team of 5 junior developers',
-      'Implemented CI/CD pipeline reducing deployment time by 80%',
+      
     ],
   },
-  {
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Co.',
-    period: '2020 - 2022',
-    description: 'Developed and maintained multiple client projects using React, Node.js, and MongoDB.',
-    achievements: [
-      'Built real-time collaboration platform with 50K+ active users',
-      'Optimized database queries improving performance by 45%',
-      'Led migration from monolith to microservices architecture',
-    ],
-  },
-  {
-    title: 'Junior Developer',
-    company: 'StartUp Labs',
-    period: '2019 - 2020',
-    description: 'Contributed to full-stack development of SaaS products using modern JavaScript frameworks.',
-    achievements: [
-      'Developed responsive UI components with React',
-      'Integrated third-party APIs and payment gateways',
-      'Participated in agile development and code reviews',
-    ],
-  },
+  
 ];
 
 const education = [
@@ -45,28 +23,12 @@ const education = [
   },
 ];
 
-const certifications = [
-  'AWS Certified Developer - Associate',
-  'MongoDB Certified Developer',
-  'Meta React Developer Certificate',
-  'Node.js Application Development (LFW211)',
-];
 
 export default function Resume() {
   return (
     <section id="resume" className="py-24 px-6 bg-slate-900">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            Professional <span className="bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">Resume</span>
-          </h2>
-          <p className="text-slate-400 text-lg mb-8">Experience, Education, and Certifications</p>
-          <button className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 rounded-xl text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-emerald-500/50">
-            <Download className="w-5 h-5" />
-            Download Full Resume
-          </button>
-        </div>
-
+        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-8">
@@ -140,23 +102,8 @@ export default function Resume() {
             </div>
 
             <div>
-              <div className="flex items-center gap-3 mb-6">
-                <div className="p-3 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl">
-                  <Award className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-white">Certifications</h3>
-              </div>
+              
 
-              <div className="bg-slate-800/50 backdrop-blur-xl rounded-2xl p-6 border border-slate-700 animate-slide-up">
-                <div className="space-y-3">
-                  {certifications.map((cert) => (
-                    <div key={cert} className="flex items-start gap-3 group hover:translate-x-2 transition-transform duration-300">
-                      <Award className="w-5 h-5 text-purple-400 mt-0.5 flex-shrink-0" />
-                      <p className="text-slate-300 text-sm group-hover:text-white transition-colors duration-300">{cert}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
           </div>
         </div>

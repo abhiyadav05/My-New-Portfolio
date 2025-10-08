@@ -22,13 +22,7 @@ const achievements = [
     icon: Award,
     color: 'from-emerald-400 to-green-500',
   },
-  {
-    platform: 'HackerRank',
-    rating: 'Gold',
-    problems: '300+',
-    icon: Zap,
-    color: 'from-green-400 to-lime-500',
-  },
+  
 ];
 
 const skills = [

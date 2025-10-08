@@ -13,15 +13,15 @@ export default function About() {
                   JS
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-bold text-white mb-2">John Smith</h3>
+                  <h3 className="text-3xl font-bold text-white mb-2">Abhishek Yadav</h3>
                   <p className="text-emerald-400 text-lg font-medium mb-4">MERN Stack Developer</p>
                   <div className="flex items-center justify-center gap-2 text-slate-400 mb-2">
                     <MapPin className="w-4 h-4" />
-                    <span>San Francisco, CA</span>
+                    <span>Lucknow - Uttar Pradesh, INDIA</span>
                   </div>
                   <div className="flex items-center justify-center gap-2 text-slate-400">
                     <Mail className="w-4 h-4" />
-                    <span>john.smith@example.com</span>
+                    <span>abhshekyadav95065@gmail.com</span>
                   </div>
                 </div>
               </div>
@@ -39,16 +39,7 @@ export default function About() {
             </div>
 
             <div className="space-y-4 text-slate-300 text-lg leading-relaxed">
-              <p>
-                Passionate Full Stack Developer with 5+ years of experience building scalable web applications
-                using the MERN stack. I specialize in creating seamless user experiences and robust backend systems
-                that drive business growth.
-              </p>
-              <p>
-                As a competitive programmer, I've honed my problem-solving skills through thousands of algorithmic
-                challenges on platforms like LeetCode, Codeforces, and CodeChef. This expertise translates directly
-                into writing efficient, optimized code for real-world applications.
-              </p>
+             
               <p>
                 I'm dedicated to continuous learning and staying at the forefront of web development technologies.
                 Whether it's implementing complex features, optimizing performance, or mentoring junior developers,
@@ -74,15 +65,15 @@ export default function About() {
 
             <div className="mt-8 grid grid-cols-3 gap-4">
               <div className="bg-slate-900/50 backdrop-blur-xl rounded-xl p-4 border border-slate-700 text-center">
-                <div className="text-3xl font-bold text-emerald-400 mb-1">5+</div>
+                <div className="text-3xl font-bold text-emerald-400 mb-1">1+</div>
                 <div className="text-slate-400 text-sm">Years Experience</div>
               </div>
               <div className="bg-slate-900/50 backdrop-blur-xl rounded-xl p-4 border border-slate-700 text-center">
-                <div className="text-3xl font-bold text-blue-400 mb-1">50+</div>
+                <div className="text-3xl font-bold text-blue-400 mb-1">10+</div>
                 <div className="text-slate-400 text-sm">Projects Completed</div>
               </div>
               <div className="bg-slate-900/50 backdrop-blur-xl rounded-xl p-4 border border-slate-700 text-center">
-                <div className="text-3xl font-bold text-purple-400 mb-1">2000+</div>
+                <div className="text-3xl font-bold text-purple-400 mb-1">700+</div>
                 <div className="text-slate-400 text-sm">Problems Solved</div>
               </div>
             </div>

@@ -6,10 +6,8 @@ export default function Header() {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Tech Stack', href: '#tech-stack' },
     { name: 'Projects', href: '#projects' },
     { name: 'CP Profile', href: '#competitive' },
-    { name: 'Resume', href: '#resume' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -19,11 +17,11 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center font-bold text-white text-xl">
-              JS
+              AY
             </div>
             <div>
-              <h1 className="text-xl font-bold text-white">John Smith</h1>
-              <p className="text-sm text-slate-400">MERN Stack Developer</p>
+              <h1 className="text-xl font-bold text-white">Abhishek Yadav</h1>
+              <p className="text-sm text-slate-400">Full Stack Developer</p>
             </div>
           </div>
 
@@ -38,12 +36,6 @@ export default function Header() {
               </a>
             ))}
           </nav>
-
-          <button className="hidden md:flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 rounded-xl text-white font-medium transition-all duration-300 hover:scale-105">
-            <Download className="w-4 h-4" />
-            Resume
-          </button>
-
           <button
             className="md:hidden text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -65,10 +57,7 @@ export default function Header() {
                   {link.name}
                 </a>
               ))}
-              <button className="flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl text-white font-medium">
-                <Download className="w-4 h-4" />
-                Resume
-              </button>
+              
             </div>
           </nav>
         )}

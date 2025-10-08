@@ -1,5 +1,6 @@
 import { Code2, Terminal, Trophy, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import About from './About';
 
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -17,7 +18,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20">
+    
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-20">
       <div className="absolute inset-0 overflow-hidden">
         <div
           className="absolute top-1/4 left-1/4 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl animate-float"
@@ -53,7 +55,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
             <div className="relative bg-slate-800/90 backdrop-blur-xl rounded-2xl p-6 border border-slate-700 hover:border-emerald-500 transition-all duration-300 transform hover:-translate-y-2">
               <Code2 className="w-12 h-12 text-emerald-400 mx-auto mb-3" />
-              <h3 className="text-white font-semibold text-lg">Full Stack</h3>
+              <h3 className="text-white font-semibold text-lg">Full Stack Developer</h3>
               <p className="text-slate-400 text-sm mt-2">MERN Expert</p>
             </div>
           </div>
@@ -93,5 +95,6 @@ export default function Hero() {
 
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-slate-900 to-transparent"></div>
     </section>
+   
   );
 }
