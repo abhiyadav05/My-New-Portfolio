@@ -2,10 +2,9 @@ import { Mail, Github, Linkedin, Twitter, Send, CheckCircle } from 'lucide-react
 import { useState } from 'react';
 
 const socialLinks = [
-  { icon: Github, label: 'GitHub', color: 'hover:text-slate-300' },
-  { icon: Linkedin, label: 'LinkedIn', color: 'hover:text-blue-400' },
-  { icon: Twitter, label: 'Twitter', color: 'hover:text-sky-400' },
-  { icon: Mail, label: 'Email', color: 'hover:text-emerald-400' },
+  { icon: Github, label: 'GitHub', color: 'hover:text-slate-300', link:'https://github.com/abhiyadav05' },
+  { icon: Linkedin, label: 'LinkedIn', color: 'hover:text-blue-400', link: 'https://www.linkedin.com/in/abhishek-yadav-637136257/' },
+  { icon: Twitter, label: 'Twitter', color: 'hover:text-sky-400', link: 'https://x.com/AbhishekYa05?t=ZtrJzqM_1wYN3IuXDqTVvw&s=08' },
 ];
 
 export default function Contact() {
@@ -72,7 +71,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500 transition-colors duration-300"
-                    placeholder={field === 'email' ? 'john@example.com' : field === 'name' ? 'John Doe' : 'Project Discussion'}
+                    placeholder={field === 'email' ? 'Enter Your Email' : field === 'name' ? 'Enter Your Name' : 'Project Discussion'}
                   />
                 </div>
               ))}
@@ -112,7 +111,7 @@ export default function Contact() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>
 
-              {/* Fake Success Message */}
+             
               {submitStatus === 'success' && (
                 <div className="flex items-center gap-2 text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-4 animate-slide-up">
                   <CheckCircle className="w-5 h-5" />
@@ -139,7 +138,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div className="text-sm text-slate-400">Email</div>
-                    <div className="font-medium">your.email@example.com</div>
+                    <div className="font-medium">abhshekyadav95065@gmail.com</div>
                   </div>
                 </div>
 
@@ -159,13 +158,28 @@ export default function Contact() {
             <h4 className="text-xl font-bold text-white mb-4">Social Media</h4>
             <div className="flex flex-wrap gap-4">
               {socialLinks.map((social) => (
+                  <a
+                key={social.label}
+                href={`${social.link}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
                 <button
-                  key={social.label}
+                 
                   className="group relative p-5 bg-slate-800/50 backdrop-blur-xl rounded-xl border border-slate-700 hover:border-emerald-500 transition-all duration-300 transform hover:scale-110"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
-                  <social.icon className={`w-7 h-7 text-slate-400 ${social.color} transition-colors duration-300 relative z-10`} />
+                  <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-300">
+                   
+
+             
+                  </div>
+                  <social.icon className={`w-7 h-7 text-slate-400 ${social.color} transition-colors duration-300 relative z-10`}
+                  
+                  />
+                 
                 </button>
+                </a>
               ))}
             </div>
           </div>
@@ -174,7 +188,7 @@ export default function Contact() {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-slate-700 text-center">
           <p className="text-slate-400">
-            Built with <span className="text-emerald-400">React</span>, <span className="text-blue-400">Tailwind CSS</span>
+            Directed By <span className="text-emerald-400">Abhishek Yadav</span>, <span className="text-blue-400">MERN</span>
           </p>
         </div>
       </div>

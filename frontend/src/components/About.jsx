@@ -51,7 +51,14 @@ export default function About() {
               <button className="group relative px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-xl font-semibold text-white text-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 hover:scale-105">
                 <span className="relative z-10 flex items-center gap-2">
                   <Download className="w-5 h-5" />
-                  Download Resume
+                  <a
+                href="https://drive.google.com/file/d/1oCXsJAuK_KBmI5TJ_GWOhaPL9rmRtt2u/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                Download Resume
+              </a>
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </button>

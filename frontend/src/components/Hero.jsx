@@ -87,7 +87,14 @@ export default function Hero() {
           <button className="group relative px-8 py-4 bg-slate-800 border-2 border-emerald-500 rounded-xl font-semibold text-white text-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 hover:bg-emerald-500/10">
             <span className="relative z-10 flex items-center gap-2">
               <Download className="w-5 h-5" />
-              Download Resume
+             <a
+                href="https://drive.google.com/file/d/1oCXsJAuK_KBmI5TJ_GWOhaPL9rmRtt2u/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                Download Resume
+              </a>
             </span>
           </button>
         </div>

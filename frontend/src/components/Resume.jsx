@@ -2,12 +2,12 @@ import { Briefcase, GraduationCap, Award, Download, Calendar } from 'lucide-reac
 
 const experience = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovations Inc.',
-    period: '2022 - Present',
-    description: 'Leading development of scalable web applications using MERN stack. Architected microservices infrastructure serving 1M+ users.',
+    title: 'TRAINEE',
+    company: 'Bharat Electronic Limited',
+    period: '2023 - November',
+    description: 'Leading as a trainee in company and working major on python how to integrate the python with machines.',
     achievements: [
-      'Reduced API response time by 60% through optimization',
+      'I was awarded by the completion certificate.',
       
     ],
   },
@@ -17,9 +17,9 @@ const experience = [
 const education = [
   {
     degree: 'Bachelor of Technology in Computer Science',
-    institution: 'Tech University',
-    period: '2015 - 2019',
-    details: 'GPA: 3.8/4.0 | Focus: Data Structures, Algorithms, Web Development',
+    institution: 'Institute of Engineering & Technology, Lucknow',
+    period: '2023 - 2027',
+    details: 'CGPA: 9.13/10.0 ',
   },
 ];
 
@@ -111,7 +111,7 @@ export default function Resume() {
         <div className="bg-gradient-to-r from-emerald-500/10 to-blue-500/10 border border-emerald-500/20 rounded-2xl p-8 text-center animate-fade-in">
           <h3 className="text-2xl font-bold text-white mb-3">Ready to Collaborate?</h3>
           <p className="text-slate-300 mb-6">
-            With 5+ years of experience in MERN stack development and competitive programming,
+            With 1+ years of experience in MERN stack development and competitive programming,
             I'm ready to bring your ideas to life.
           </p>
           <div className="flex flex-wrap justify-center gap-4">

@@ -3,35 +3,38 @@ import { Award, TrendingUp, Code2, Zap } from 'lucide-react';
 const achievements = [
   {
     platform: 'LeetCode',
-    rating: '2100+',
-    problems: '850+',
+    rating: '1562+',
+    problems: '400+',
     icon: Code2,
     color: 'from-orange-400 to-yellow-500',
+    link :'https://leetcode.com/u/abhshekyadav95065/',
   },
   {
     platform: 'Codeforces',
-    rating: 'Expert',
-    problems: '500+',
+    rating: 'PUPIL',
+    problems: '300+',
     icon: TrendingUp,
     color: 'from-blue-400 to-cyan-500',
+     link :'https://codeforces.com/profile/abhshekyadav95065',
   },
   {
     platform: 'CodeChef',
-    rating: '5 Star',
-    problems: '400+',
+    rating: '3 Star',
+    problems: '100+',
     icon: Award,
     color: 'from-emerald-400 to-green-500',
+     link :'https://www.codechef.com/users/abhishek95065',
   },
   
 ];
 
 const skills = [
-  { name: 'Dynamic Programming', level: 95 },
-  { name: 'Graph Algorithms', level: 90 },
-  { name: 'Data Structures', level: 92 },
-  { name: 'Greedy Algorithms', level: 88 },
-  { name: 'Binary Search', level: 94 },
-  { name: 'String Algorithms', level: 85 },
+  { name: 'Data Structures & Algorithm', level: 95 },
+  { name: 'Database Management System', level: 90 },
+  { name: 'Operating System', level: 92 },
+  { name: 'Computer Network', level: 88 },
+  { name: 'Object-Oriented Programming', level: 94 },
+  { name: 'Dynamic Programming', level: 85 },
 ];
 
 export default function CompetitiveProgramming() {
@@ -45,7 +48,7 @@ export default function CompetitiveProgramming() {
           <p className="text-slate-400 text-lg">Solving complex problems with efficient algorithms</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {achievements.map((achievement, index) => (
             <div
               key={achievement.platform}
@@ -67,13 +70,27 @@ export default function CompetitiveProgramming() {
                   <span className="text-slate-400 text-sm">Rating</span>
                 </div>
                 <p className="text-slate-300 text-sm">{achievement.problems} Problems Solved</p>
+                 <button className="group relative px-4 py-2 my-3 bg-slate-800 border-2 border-emerald-500 rounded-xl font-semibold text-white text-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-emerald-500/50 hover:bg-emerald-500/10">
+            <span className="relative z-10 flex items-center gap-2">
+             
+             <a
+                href={`${achievement.link}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+               See Profile
+              </a>
+            </span>
+          </button>
               </div>
+              
             </div>
           ))}
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <h3 className="text-3xl font-bold text-white mb-8 text-center">Algorithm Expertise</h3>
+          <h3 className="text-3xl font-bold text-white mb-8 text-center">Technical Knowledge</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {skills.map((skill, index) => (
               <div

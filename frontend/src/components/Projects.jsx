@@ -2,29 +2,18 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Real-time Chat Application',
-    description: 'Full-stack chat app with WebSocket integration, JWT authentication, and MongoDB storage',
-    tech: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    title: 'Real-time Chat/Image Application',
+    description: 'Full-stack chat app with opneai integration, JWT authentication, and MongoDB storage',
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB','Openai', 'JWT', 'TailwindCSS'],
     gradient: 'from-emerald-500 to-teal-600',
   },
   {
-    title: 'E-commerce Platform',
-    description: 'Scalable online store with payment integration, inventory management, and admin dashboard',
-    tech: ['Next.js', 'Express', 'Stripe', 'Redux'],
+    title: 'Placement Portal',
+    description: 'Recruiter,Student and Admin dashboard where Student apply for the job and recruiter post the job.',
+    tech: ['HTML', 'CSS', 'Bootsrap', 'JavaScript','PHP','MySQL','XAMP Server'],
     gradient: 'from-blue-500 to-cyan-600',
   },
-  {
-    title: 'Algorithm Visualizer',
-    description: 'Interactive tool to visualize sorting and graph algorithms with step-by-step execution',
-    tech: ['React', 'TypeScript', 'D3.js', 'Tailwind'],
-    gradient: 'from-purple-500 to-pink-600',
-  },
-  {
-    title: 'Project Management Tool',
-    description: 'Collaborative workspace with real-time updates, task tracking, and team communication',
-    tech: ['MERN', 'WebRTC', 'Redis', 'Docker'],
-    gradient: 'from-orange-500 to-red-600',
-  },
+  
 ];
 
 export default function Projects() {
