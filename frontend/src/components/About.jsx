@@ -1,5 +1,5 @@
 import { User, MapPin, Mail, Download } from 'lucide-react';
-
+import myImage from '../assets/myimg.png';
 export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-slate-800">
@@ -10,7 +10,11 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-blue-500 rounded-3xl blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
               <div className="relative bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl p-12 border border-slate-700">
                 <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center text-white text-6xl font-bold">
-                  JS
+                    <img
+          src={myImage}
+          alt="Profile"
+          className="w-58 h-50 object-cover rounded-full "
+        />
                 </div>
                 <div className="text-center">
                   <h3 className="text-3xl font-bold text-white mb-2">Abhishek Yadav</h3>
