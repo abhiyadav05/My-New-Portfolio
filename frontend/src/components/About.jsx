@@ -1,5 +1,6 @@
 import { User, MapPin, Mail, Download } from 'lucide-react';
 import myImage from '../assets/myimg.png';
+import resumePDF from '../assets/AbhishekYadav_AI_Engineer.pdf';
 export default function About() {
   return (
     <section id="about" className="py-24 px-6 bg-slate-800">
@@ -56,7 +57,7 @@ export default function About() {
                 <span className="relative z-10 flex items-center gap-2">
                   <Download className="w-5 h-5" />
                   <a
-                href="https://drive.google.com/file/d/1oCXsJAuK_KBmI5TJ_GWOhaPL9rmRtt2u/view?usp=sharing"
+                href={resumePDF}
                 target="_blank"
                 rel="noopener noreferrer"
                 

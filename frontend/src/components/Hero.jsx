@@ -1,6 +1,7 @@
 import { Code2, Terminal, Trophy, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import About from './About';
+import resumePDF from '../assets/AbhishekYadav_AI_Engineer.pdf';
 
 export default function Hero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -88,7 +89,7 @@ export default function Hero() {
             <span className="relative z-10 flex items-center gap-2">
               <Download className="w-5 h-5" />
              <a
-                href="https://drive.google.com/file/d/1oCXsJAuK_KBmI5TJ_GWOhaPL9rmRtt2u/view?usp=sharing"
+                href={resumePDF}
                 target="_blank"
                 rel="noopener noreferrer"
                 
