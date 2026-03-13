@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Real-time Chat/Image Application",
     description:
-      "Full-stack chat app with opneai integration, JWT authentication, and MongoDB storage",
+      "Developed a real-time full-stack AI chat and image generation app using OpenAI APIs, Node.js, Express, and MongoDB. Implemented JWT authentication, ImageKit CDN for image storage, and syntax-highlighted.",
     tech: [
       "React",
       "Node.js",
@@ -16,12 +16,52 @@ const projects = [
     ],
     gradient: "from-emerald-500 to-teal-600",
     githubLink: "https://github.com/abhiyadav05/My-GPT",
-    liveDemoLink: "https://github.com/abhiyadav05/My-GPT",
+    liveDemoLink: "https://realtime-chat-image-generator.vercel.app/",
+  },
+  {
+    title: "Hostly",
+    description:
+      "Developed a CI/CD system that deploys GitHub repositories to production using Docker, AWS ECR, and ECS. Built a reverse-proxy server to securely serve S3 static builds with fast routing and zero manual deployment.",
+    tech: [
+      "React",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Docker",
+      "AWS S3",
+      "AWS ECS",
+      "AWS ECR",
+    ],
+    gradient: "from-yellow-300 to-amber-500",
+    githubLink: "https://github.com/abhiyadav05/hostly",
+    liveDemoLink: "https://github.com/abhiyadav05/hostly",
+  },
+  {
+    title: "Talkify",
+    description:
+      "Developed a real-time messaging platform using MERN stack with WebSocket-based instant communication. Implemented JWT authentication, Redis caching, and RabbitMQ for scalable message handling, containerized with Docker.",
+    tech: [
+      "React",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Docker",
+      "WebSocket",
+      "RabbitMQ",
+      "Redis",
+    ],
+    gradient: "from-sky-400 to-indigo-600",
+    githubLink: "https://github.com/abhiyadav05/Talkify",
+    liveDemoLink: "https://github.com/abhiyadav05/Talkify",
   },
   {
     title: "Placement Portal",
     description:
-      "Recruiter,Student and Admin dashboard where Student apply for the job and recruiter post the job.",
+      "Built a role-based placement management system enabling students to apply for jobs and recruiters to post opportunities. Implemented using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL with XAMPP server.",
     tech: [
       "HTML",
       "CSS",
@@ -31,7 +71,7 @@ const projects = [
       "MySQL",
       "XAMP Server",
     ],
-    gradient: "from-blue-500 to-cyan-600",
+    gradient: "from-orange-400 to-red-600",
     githubLink: "https://github.com/abhiyadav05/Placement-Portal",
     liveDemoLink: "https://github.com/abhiyadav05/Placement-Portal",
   },
@@ -48,7 +88,7 @@ const projects = [
     title: "Github Profile Finder",
     description:
       "An application that fetches and displays GitHub user profiles based on username input.",
-    tech: ["React", "TailwindCSS", "JavaScript", "HTML", "CSS", "GitHub API"],
+    tech: ["React", "TailwindCSS", "JavaScript", "GitHub API"],
     gradient: "from-emerald-500 to-teal-600",
     githubLink: "https://github.com/abhiyadav05/findGithubProfile",
     liveDemoLink: "https://github.com/abhiyadav05/findGithubProfile",

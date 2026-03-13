@@ -3,15 +3,15 @@ import { Award, TrendingUp, Code2, Zap } from 'lucide-react';
 const achievements = [
   {
     platform: 'LeetCode',
-    rating: '1562+',
-    problems: '400+',
+    rating: '1626+',
+    problems: '500+',
     icon: Code2,
     color: 'from-orange-400 to-yellow-500',
     link :'https://leetcode.com/u/abhshekyadav95065/',
   },
   {
     platform: 'Codeforces',
-    rating: 'PUPIL',
+    rating: 'SPECIALIST',
     problems: '300+',
     icon: TrendingUp,
     color: 'from-blue-400 to-cyan-500',
@@ -20,7 +20,7 @@ const achievements = [
   {
     platform: 'CodeChef',
     rating: '3 Star',
-    problems: '100+',
+    problems: '200+',
     icon: Award,
     color: 'from-emerald-400 to-green-500',
      link :'https://www.codechef.com/users/abhishek95065',

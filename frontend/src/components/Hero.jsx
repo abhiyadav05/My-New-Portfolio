@@ -40,12 +40,12 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-6 max-w-5xl">
         <div className="mb-8 animate-slide-down">
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 tracking-tight">
+          {/* <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 tracking-tight">
             MERN Stack
             <span className="block bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent">
               Developer
             </span>
-          </h1>
+          </h1> */}
           <p className="text-xl md:text-2xl text-slate-300 mb-8">
             Competitive Programmer | Full Stack Engineer
           </p>
