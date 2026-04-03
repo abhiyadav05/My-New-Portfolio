@@ -2,7 +2,28 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Real-time Chat/Image Application",
+    title: "Hostly",
+    description:
+      "Developed a CI/CD system that deploys GitHub repositories to production using Docker, AWS ECR, and ECS. Built a reverse-proxy server to securely serve S3 static builds with fast routing and zero manual deployment.",
+    tech: [
+      "React",
+      "TailwindCSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Docker",
+      "AWS S3",
+      "AWS ECS",
+      "AWS ECR",
+      "Clerk"
+    ],
+    gradient: "from-yellow-300 to-amber-500",
+    githubLink: "https://github.com/abhiyadav05/hostly",
+    liveDemoLink: "https://hostly-pearl.vercel.app/",
+  },
+  {
+    title: "MyGPT",
     description:
       "Developed a real-time full-stack AI chat and image generation app using OpenAI APIs, Node.js, Express, and MongoDB. Implemented JWT authentication, ImageKit CDN for image storage, and syntax-highlighted.",
     tech: [
@@ -18,10 +39,11 @@ const projects = [
     githubLink: "https://github.com/abhiyadav05/My-GPT",
     liveDemoLink: "https://realtime-chat-image-generator.vercel.app/",
   },
+  
   {
-    title: "Hostly",
+    title: "Zorvyn-Finance",
     description:
-      "Developed a CI/CD system that deploys GitHub repositories to production using Docker, AWS ECR, and ECS. Built a reverse-proxy server to securely serve S3 static builds with fast routing and zero manual deployment.",
+      "Built a finance dashboard backend with role based access control that allows users to manage financial records and view analytics while implementing secure authentication CRUD operations and aggregation APIs to provide insights such as income expenses and trends.",
     tech: [
       "React",
       "TailwindCSS",
@@ -29,65 +51,41 @@ const projects = [
       "Express.js",
       "MongoDB",
       "JWT",
-      "Docker",
-      "AWS S3",
-      "AWS ECS",
-      "AWS ECR",
-    ],
-    gradient: "from-yellow-300 to-amber-500",
-    githubLink: "https://github.com/abhiyadav05/hostly",
-    liveDemoLink: "https://github.com/abhiyadav05/hostly",
-  },
-  {
-    title: "Talkify",
-    description:
-      "Developed a real-time messaging platform using MERN stack with WebSocket-based instant communication. Implemented JWT authentication, Redis caching, and RabbitMQ for scalable message handling, containerized with Docker.",
-    tech: [
-      "React",
-      "TailwindCSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "Docker",
-      "WebSocket",
-      "RabbitMQ",
-      "Redis",
+      "Chart.js",
+      "bcrypt",
     ],
     gradient: "from-sky-400 to-indigo-600",
-    githubLink: "https://github.com/abhiyadav05/Talkify",
-    liveDemoLink: "https://github.com/abhiyadav05/Talkify",
+    githubLink: "https://github.com/abhiyadav05/Assignment-Zorvyn",
+    liveDemoLink: "https://zorvyn-fintech-finance.vercel.app/",
   },
   {
-    title: "Placement Portal",
+    title: "BST Visualizer",
     description:
-      "Built a role-based placement management system enabling students to apply for jobs and recruiters to post opportunities. Implemented using HTML, CSS, Bootstrap, JavaScript, PHP, and MySQL with XAMPP server.",
+      "Developed a BST visualizer to simulate tree operations including insert delete search and multiple traversal techniques in real time.Focused on improving conceptual understanding of data structures through visual representation and interactive inputs.",
     tech: [
       "HTML",
       "CSS",
-      "Bootsrap",
       "JavaScript",
-      "PHP",
-      "MySQL",
-      "XAMP Server",
+      "tailwindCSS",
+      "React.js",
     ],
     gradient: "from-orange-400 to-red-600",
-    githubLink: "https://github.com/abhiyadav05/Placement-Portal",
-    liveDemoLink: "https://github.com/abhiyadav05/Placement-Portal",
+    githubLink: "https://github.com/abhiyadav05/NaalandaAI_BST_Assignment",
+    liveDemoLink: "https://naalanda-ai-bst-assignment.vercel.app/",
   },
   {
-    title: "Video Streaming Platform",
+    title: "VyomGarud",
     description:
-      "A video streaming platform with user authentication, video upload, and playback features.",
-    tech: ["Express.Js", "Node.js", "MongoDB", "Cloudinary"],
+      "VyomGarud builds advanced UAV systems for military and defense operations, combining precision engineering with autonomous capabilities. Our platforms ensure reliable performance in critical.",
+    tech: ["React.js", "Node.js", "TailwindCSS"],
     gradient: "from-blue-500 to-cyan-600",
-    githubLink: "https://github.com/abhiyadav05/Video_Stream",
-    liveDemoLink: "https://github.com/abhiyadav05/Video_Stream",
+    githubLink: "https://github.com/abhiyadav05/VyomGarud",
+    liveDemoLink: "https://vyom-garud-khaki.vercel.app/",
   },
   {
     title: "Github Profile Finder",
     description:
-      "An application that fetches and displays GitHub user profiles based on username input.",
+      "A React-based application that allows users to search and view GitHub profiles by username in a clean and responsive UI. It leverages the GitHub API to fetch real-time user data and display key profile details efficiently.",
     tech: ["React", "TailwindCSS", "JavaScript", "GitHub API"],
     gradient: "from-emerald-500 to-teal-600",
     githubLink: "https://github.com/abhiyadav05/findGithubProfile",
